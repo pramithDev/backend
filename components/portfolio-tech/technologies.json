@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_portfolio_tech_technologies",
+  "info": {
+    "name": "technologies",
+    "icon": "archway"
+  },
+  "options": {},
+  "attributes": {
+    "techText": {
+      "type": "string"
+    }
+  }
+}

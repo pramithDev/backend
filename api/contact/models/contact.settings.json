@@ -1,0 +1,24 @@
+{
+  "kind": "singleType",
+  "collectionName": "contacts",
+  "info": {
+    "name": "contact"
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "telNo": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "description": {
+      "type": "text"
+    }
+  }
+}

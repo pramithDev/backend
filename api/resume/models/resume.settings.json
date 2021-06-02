@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "resumes",
+  "info": {
+    "name": "resume",
+    "description": ""
+  },
+  "options": {
+    "increments": true,
+    "timestamps": true,
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "companyName": {
+      "type": "string"
+    },
+    "startDate": {
+      "type": "date"
+    },
+    "endDate": {
+      "type": "date"
+    },
+    "post": {
+      "type": "string"
+    },
+    "description": {
+      "type": "text"
+    },
+    "defaultTask": {
+      "type": "component",
+      "repeatable": true,
+      "component": "resume-task.task-list"
+    }
+  }
+}

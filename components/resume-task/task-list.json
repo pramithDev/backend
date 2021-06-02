@@ -1,0 +1,14 @@
+{
+  "collectionName": "components_resume_task_task_lists",
+  "info": {
+    "name": "taskList",
+    "icon": "align-justify",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "taskText": {
+      "type": "string"
+    }
+  }
+}
