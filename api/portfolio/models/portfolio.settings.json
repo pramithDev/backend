@@ -15,9 +15,6 @@
     "projectName": {
       "type": "string"
     },
-    "workType": {
-      "type": "string"
-    },
     "siteLink": {
       "type": "string"
     },
@@ -50,6 +47,9 @@
       "type": "component",
       "repeatable": true,
       "component": "portfolio-tech.technologies"
+    },
+    "work_types": {
+      "collection": "work-types"
     }
   }
 }

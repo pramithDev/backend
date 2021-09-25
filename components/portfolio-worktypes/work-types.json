@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_portfolio_worktypes_work_types",
+  "info": {
+    "name": "Work Types",
+    "icon": "apple-alt"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    }
+  }
+}
