@@ -50,6 +50,9 @@
     },
     "work_types": {
       "collection": "work-types"
+    },
+    "Description": {
+      "type": "text"
     }
   }
 }
